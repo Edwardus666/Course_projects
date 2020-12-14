@@ -1,7 +1,5 @@
 :full_moon_with_face::full_moon::waning_gibbous_moon::waning_crescent_moon::first_quarter_moon::waxing_crescent_moon::new_moon::new_moon_with_face:	:new_moon::waxing_crescent_moon::first_quarter_moon::waning_crescent_moon::waning_gibbous_moon::full_moon::full_moon_with_face:
-:full_moon::waning_gibbous_moon::waning_crescent_moon::first_quarter_moon::waxing_crescent_moon::new_moon::new_moon_with_face:	
-:new_moon::waxing_crescent_moon::first_quarter_moon::waning_crescent_moon::waning_gibbous_moon::full_moon::full_moon_with_face:
-
+:full_moon::waning_gibbous_moon::waning_crescent_moon::first_quarter_moon::waxing_crescent_moon::new_moon:
 
 # Course_projects:trophy:
 All the projects were saved in local environment, which uploaded as a whole to the **GitHub**.
