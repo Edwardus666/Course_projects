@@ -1,0 +1,27 @@
+SET SERVEROUTPUT ON;
+
+
+CREATE OR REPLACE TRIGGER CONTACT_SPENTTIME_TRG BEFORE
+    UPDATE ON CONTACTLIST
+    FOR EACH ROW
+
+
+BEGIN
+  	
+  	
+    /** determine when not to caculate the NULL value of SPENTTIME **/
+    IF
+        :NEW.DATEIN IS NOT NULL
+        AND :NEW.DATEOUT IS NOT NULL
+    THEN
+        SELECT
+            ( :NEW.DATEOUT - :NEW.DATEIN ) * 24
+        INTO :NEW.SPENTTIME
+        FROM
+            DUAL;
+
+        DBMS_OUTPUT.PUT_LINE('TIMESPENT IS ' || :NEW.SPENTTIME);
+      
+    END IF;
+  
+END;
