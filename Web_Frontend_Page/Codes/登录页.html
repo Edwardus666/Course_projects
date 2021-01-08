@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<script src="jquery库_js/jquery-3.3.1.min.js"></script>
+<style type="text/css">
+div#user{
+	border-radius:15px;
+    border-style:solid;
+	position:absolute;
+	top:15%;
+	left:35%;
+    width:30%;
+	height:70%;
+	background:#2E99B0;
+	z-index:20;
+
+	}
+	
+div#user1{
+	position:relative;
+	top:2%;
+	left:2%;
+	width:96%;
+	height:96%;
+	text-align:center;
+	background:#FCD77F;
+	
+}
+div#welcome{
+	text-align:left;
+	font-family:"Comic Sans MS", cursive;
+	font-size:50px;
+	font-weight:bold;
+	clear:both;
+	 }
+div#block1{
+	position:relative;
+	height:40%;
+	width:300px;
+	left:15%;
+	background-color:#FF2E4C;
+	border-radius:10px;
+	border:5px solid red;
+}
+div#block2{
+	position:relative;
+	height:150px;
+	width:380px;
+	left:7%;
+	top:10px;
+	background:url(%E5%9B%BE%E7%89%87/asset-v1_SCUT1+block@%E5%AD%A6%E6%9C%AF%E8%8B%B1%E8%AF%AD.png);
+	background-origin:content-box;
+}
+
+div#username{
+	position:relative;
+	top:5%;
+	
+}
+a:link {color:#000000}
+a:visited {color: #000000}
+a:hover {color: #FFFFFF; font-size:large;}   
+a:active {color:#FCD77F; font-size:large;}
+	
+div#password{
+	position:relative;
+	top:8%;	
+}
+#username1,#password1{
+	width:200px;
+	height:30px;
+}
+p{
+	text-shadow:10px 13px 2px #2E99B0;
+	font-family:"Comic Sans MS", cursive;
+}
+#button1{
+	width:50px;
+	height:30px;
+	position:relative;
+	top:-35px;
+	left:95px;
+	border-radius:5px;
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="首页CSS/Untitled-3.css"/>
+<link rel="stylesheet" type="text/css" href="加载.css"/>
+<link rel="stylesheet" type="text/css" href="主页球.css"/>
+<script>
+$(document).ready(function(){
+    $("div#user").fadeIn(3000);
+  $("div.ball").fadeIn(7000);
+  });
+</script>
+<script type="text/javascript">
+function alert1(){
+	alert("用户名是abc")
+}
+function alert2(){
+	alert("密码是ABC")
+}
+
+function userenter(){
+	var username11=document.getElementById('username1').value;
+	var password11=document.getElementById('password1').value;
+	if(username11=="abc"&&password11=="ABC"){
+		alert("登录成功，Welcome")
+		window.open("file:///D:/%E7%BD%91%E7%AB%99%E8%AE%BE%E8%AE%A1/%E7%AB%99%E7%82%B9/%E6%9C%9F%E6%9C%AB/%E9%A6%96%E9%A1%B5/%E9%A6%96%E9%A1%B5.html","","","");	
+	}
+		
+	else if(username11==""||password11==""){
+	alert("请输入账号和密码,并填写完整")
+	return  false;}
+	else{
+		alert("密码有误，请查看忘记账号和忘记密码,来确认您的信息")
+		return  false ;}
+
+
+
+}
+ </script>
+</head>
+<body>
+	<div id="user" style="display:none"> 
+    <div id="user1">
+    <div id="welcome">Welcome</div>
+    <div id="block1">
+    
+    <div id="username">
+   <input type="text"   placeholder="请输入用户名" id="username1" autocomplete="on" /><a href="" onclick="alert1()">忘记账号</a></div>
+   <div id="password">
+   <input type="text" placeholder="请输入密码" id="password1"  autocomplete="on" /><a href="" onclick="alert2()">忘记密码</a></div>
+
+   <div id="submit1">
+   <p align="left">To be a bookworm...</p>&emsp;&emsp;<input id="button1" type="button" value="进入"  onclick="userenter()" /></div>
+   </div>
+   <div id="block2"></div>
+   </div>
+    </div>
+<div class="waveWrapper waveAnimation">
+  <div class="waveWrapperInner bgTop">
+    <div class="wave waveTop" style="background-image:url(%E5%9B%BE%E7%89%87/wave-top.png)"></div>
+  </div>
+  <div class="waveWrapperInner bgMiddle">
+    <div class="wave waveMiddle" style="background-image:url(%E5%9B%BE%E7%89%87/wave-mid.png)">
+    </div>
+  </div>
+  <div class="waveWrapperInner bgBottom">
+    <div class="wave waveBottom" style="background-image:url(%E5%9B%BE%E7%89%87/wave-bot.png)"></div>
+  </div>
+</div>
+
+<div class="ball" style="display:none"></div>
+
+
+<div class='body'>
+  <span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+  <div class='base'>
+    <span></span>
+    <div class='face'></div>
+  </div>
+</div>
+<div class='longfazers'>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<h1>Redirecting</h1>
+
+</body>
+</html>
