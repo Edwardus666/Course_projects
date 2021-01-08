@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1280px)
+.site-footer {
+    margin-top: 60px;
+}
+.site-footer {
+    background-color: #111111;
+    padding-top: 0;
+    padding-bottom: 40px;
+    margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+	display:inherit;
+}
+.site-footer .has-items ul a {
+  color: #999999;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.site-footer .footer-sections {
+    margin-bottom: 30px;
+    background-color: #222222;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#img1 {
+    max-width: 100%;
+}
+#img1 {
+    border: 0;
+}
+#img1[Attributes Style] {
+    width: 1px;
+    height: 1px;
+}
+.site-footer.footer-margin-remover {
+}
+.site-footer.footer-margin-remover {
+}
+.site-footer.footer-margin-remover {
+    margin-top: 0px;
+}
+@media (min-width: 1280px)
+.container {
+    width: 1260px;
+}
+@media (min-width: 960px)
+.container {
+    width: 970px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after, .container:after, .container-fluid:after, .row:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+    content: " ";
+    display:list-item;
+}
+.site-footer .footer-section-title {
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+user agent stylesheet
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ul{list-style: none;
+    padding: 0px;
+	margin: 0px;
+}
+ul, menu, dir {
+    display:list-item;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+   
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+	
+
+li {
+list-style:none; /* 将默认的列表符号去掉 */
+padding:0; /* 将默认的内边距去掉 */
+margin:0; /* 将默认的外边距去掉 */
+}
+.site-footer a {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+a {
+    color: #00aeef;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.inline-icon a {
+    display:inline-table;
+    padding-right: 10px;
+}
+.site-footer .footer-left {
+    width: 75%;
+    border-right: 1px solid gray;
+}
+.site-footer .footer-section-title {
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
+.site-footer .footer-copyright-wrapper .footer-copyright {
+  font-size: 14px;
+  color: #424242;
+}
+.site-footer .label {
+  vertical-align: middle;
+}
+@media (min-width: 720px)
+.col-sm-1-3 {
+    width: 32.33333333%;
+    margin: 0 0.5%;
+    *width: 32.28125%;
+    *margin: 0 0.44791667%;
+}
+@media (min-width: 720px)
+.col-sm-1-4 {
+    width: 24%;
+    margin: 0 0.5%;
+    *width: 23.94791667%;
+    *margin: 0 0.44791667%;
+}
+@media (min-width: 720px)
+.col-sm-1-1, .col-sm-1-2, .col-sm-1-3, .col-sm-2-3, .col-sm-1-4, .col-sm-3-4, .col-sm-1-6, .col-sm-5-6, .col-sm-1-8, .col-sm-3-8, .col-sm-5-8, .col-sm-7-8, .col-sm-7-12, .col-sm-1-12, .col-sm-5-12, .col-sm-11-12, .col-sm-13-16, .col-sm-3-16, .col-sm-7-16, .col-sm-1-16, .col-sm-5-16, .col-sm-15-16, .col-sm-9-16, .col-sm-11-16, .col-sm-19-24, .col-sm-23-24, .col-sm-5-24, .col-sm-11-24, .col-sm-13-24, .col-sm-7-24, .col-sm-17-24, .col-sm-1-24 {
+    float: left;
+}
+[class^="col-"] {
+    width: 100%;
+}
+.col-xs-1-1, .col-xs-1-2, .col-xs-1-3, .col-xs-2-3, .col-xs-1-4, .col-xs-3-4, .col-xs-1-6, .col-xs-5-6, .col-xs-1-8, .col-xs-3-8, .col-xs-5-8, .col-xs-7-8, .col-xs-7-12, .col-xs-1-12, .col-xs-5-12, .col-xs-11-12, .col-xs-13-16, .col-xs-3-16, .col-xs-7-16, .col-xs-1-16, .col-xs-5-16, .col-xs-15-16, .col-xs-9-16, .col-xs-11-16, .col-xs-19-24, .col-xs-23-24, .col-xs-5-24, .col-xs-11-24, .col-xs-13-24, .col-xs-7-24, .col-xs-17-24, .col-xs-1-24, .col-sm-1-1, .col-sm-1-2, .col-sm-1-3, .col-sm-2-3, .col-sm-1-4, .col-sm-3-4, .col-sm-1-6, .col-sm-5-6, .col-sm-1-8, .col-sm-3-8, .col-sm-5-8, .col-sm-7-8, .col-sm-7-12, .col-sm-1-12, .col-sm-5-12, .col-sm-11-12, .col-sm-13-16, .col-sm-3-16, .col-sm-7-16, .col-sm-1-16, .col-sm-5-16, .col-sm-15-16, .col-sm-9-16, .col-sm-11-16, .col-sm-19-24, .col-sm-23-24, .col-sm-5-24, .col-sm-11-24, .col-sm-13-24, .col-sm-7-24, .col-sm-17-24, .col-sm-1-24, .col-md-1-1, .col-md-1-2, .col-md-1-3, .col-md-2-3, .col-md-1-4, .col-md-3-4, .col-md-1-6, .col-md-5-6, .col-md-1-8, .col-md-3-8, .col-md-5-8, .col-md-7-8, .col-md-7-12, .col-md-1-12, .col-md-5-12, .col-md-11-12, .col-md-13-16, .col-md-3-16, .col-md-7-16, .col-md-1-16, .col-md-5-16, .col-md-15-16, .col-md-9-16, .col-md-11-16, .col-md-19-24, .col-md-23-24, .col-md-5-24, .col-md-11-24, .col-md-13-24, .col-md-7-24, .col-md-17-24, .col-md-1-24 {
+    position: relative;
+    min-height: 1px;
+}
+.footer-sections ul{
+    list-style: none;
+    padding: 0px;
+}
+.icon-facebook-square:before {
+    content: "\e912";
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.site-footer .icon {
+    color:#00aeef;
+    font-size: 26px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.icon-facebook-square:before {
+    content: "\e912";
+}
+.icon-twitter-square:before {
+    content: "\e913";
+}
+.icon-twitter-square:before {
+    content: "\e914";
+}
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.footer-sections ul,ul{list-style: none;
+    padding: 0px;}
+	element.style {
+    vertical-align: inherit;
+}

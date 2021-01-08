@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+#mashfs-main.mashfs-left {
+    left: 0;
+    transition: left .2s ease-in-out;
+}
+#mashfs-main {
+    border-radius: 2px;
+    border: 0 solid #00abed;
+    position:fixed;
+    top: 100px;
+    display: none;
+    z-index: 999999;
+	background-color: transparent;
+    color: #5a5a5f;
+}
+#mashfs-hidebtn, #mashfs-main {
+    background: #00abed;
+    padding: 0;
+}
+.mashfs-buttons {
+    display: block;
+    width: 40px;
+}
+#mashfs-total-shares {
+    line-height: 1;
+    //important reset the line height: ;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    padding: 3px 0;
+}
+#mashfs-count {
+    font-weight: bolder;
+    font-size: 20px;
+}	
+#mashfs-main>.mashfs-buttons>[class^=mashicon-] {
+    border-radius: 0;
+    width: 100%;
+}
+
+[class^="mashicon-"], .onoffswitch-label, .onoffswitch2-label, .onoffswitch {
+    border-radius: 2px;
+}
+[class*=" mashicon-"], [class^=mashicon-] {
+    position: relative;
+    display: inline-block;
+}
+.mashicon-facebook {
+    background: #2d5f9a;
+}
+[class*=" mashicon-"] .onoffswitch-label, [class^=mashicon-] {
+    font-size: 15px;
+    border-radius: 0;
+    cursor: pointer;
+}
+#mashfs-main>.mashfs-buttons>a.mashfs-popup-share>.icon {
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+[class*=" mashicon-"], [class^=mashicon-] .icon {
+    display: initial;
+    color: #fff;
+}
+#mashfs-main>.mashfs-buttons>a.mashfs-popup-share>.icon::before {
+    font-size: 20px;
+    float: none;
+    margin: 0;
+    width: auto;
+}
+.mashicon-twitter .icon:before {
+    content: '\e807';
+}
+.mashicon-share:before, [class*=" mashicon-"] .icon:before, [class^=mashicon-] .icon:before {
+    font-family: mashsb-font;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .7em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    margin-top: 0;
+    float: left;
+}
