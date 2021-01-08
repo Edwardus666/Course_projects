@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+div#navsecond
+		{
+		position:relative;
+		float: left;
+		margin: 0 0 0 6px;
+		padding: 0;
+		border: 0;
+		width: 180px;
+		height:600px;
+		background : #1E1548 ;
+		top:100px;
+		border-radius:10px;
+		font-size:18px;
+		
+		}
+
+html>body div#navsecond
+		{
+		margin-left: 12px;
+		}
+div#navsecond li.currentLink a:link, div#navsecond li.currentLink a:visited	{
+	text-decoration : none;
+	background :#FFF;
+
+	}
+
+div#navsecond li.currentLink a:hover	{
+	text-decoration : underline;
+	color :#1E1548;
+	background :#FFF;
+	
+	}
+
+div#navsecond a:link, div#navsecond a:visited	{
+	text-decoration:overline;
+	color :#1E1548;
+	background :#FFF;
+	border-radius:5px;
+	
+	} 
+
+div#navsecond a:hover	{
+	text-decoration : underline;
+	color :#1E1548;
+	background:#FF2E4C;
+	}
+
+div#navsecond a:active	{
+	text-decoration : underline;
+		color :#1E1548;
+	background : #FF2E4C;
+	}
+
+div#navsecond a#link_help {
+	color:#0479A7;
+	}
+
+div#navsecond a#link_about {
+	color:#0479A7;
+	}
+
+div#course {
+    background: transparent #CCCCCC;
+    padding:70px 20px  20px;
+}
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li {
+    margin: 0;
+    padding: 50px;
+font-family:"Comic Sans MS", cursive;
+}
+div#navsecond ul, div#sidebar ul {
+    margin-left: 12px;
+}
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li {
+    margin: 30px;
+    padding: 50px;
+}
+body#homesecond div#navsecond li {
+    margin: 100px 0 0 0;
+}
+body#homesecond div#navsecond li {
+    font-weight: bold;
+}
+div#navsecond li, div#sidebar li {
+    list-style: none;
+}
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li {
+    margin: 20px;
+    padding: 100px;
+font-family:"Comic Sans MS", cursive;
+}
+div#navsecond li, div#sidebar li {
+    list-style: none;
+}
+div#navsecond ul, div#navsecond li, div#sidebar ul, div#sidebar li {
+    margin: 0;
+    padding: 15px;
+}

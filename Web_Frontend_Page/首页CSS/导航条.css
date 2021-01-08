@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#navfirst
+		{
+		position:relative;
+		top:200px;
+		left:130px;
+		height: 48px;
+		width: 1210px;
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		background:#FCD77F;
+		font-family:"华文琥珀";
+		font-size:18px;
+		border-radius:50px;
+		
+		}
+
+div#navfirst ul#menu
+		{
+		position:relative;
+		top:30px;
+		left:180px;
+		height: 48px;
+		width: 1210px;
+		background: transparent  #FCD77F top left no-repeat;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+
+div#navfirst ul#menu li
+		{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: -20px;
+		}
+
+ul#menu li,ul#menu a
+		{
+		display: block;
+		height: 48px;
+		border-bottom:0;
+		}
+
+div#navfirst ul#menu li a
+		{
+		top:
+		overflow:auto;
+		text-decoration:underline;
+		}
+
+#h	{
+	left: -119px;
+	width: 155px;
+}
+#b	{
+	left: 89px;
+	width: 157px;
+}
+#s		{
+	left: 247px;
+	width: 167px;
+}
+#d 	{
+	left: 416px;
+	width: 158px;
+}
+#x		{
+	left: 577px;
+	width: 101px;
+}
+#ws	{
+	left: 730px;
+	width: 185px;
+}
+#w	{
+	left: 897px;
+	width: 177px;
+}
+
+#h a:hover	{background: transparent  #2E99B0  no-repeat;}
+#b a:hover	{background: transparent  #2E99B0 -155px -48px no-repeat;}
+#s a:hover		{background: transparent  #2E99B0 -312px -48px no-repeat;}
+#d a:hover	{background: transparent  #2E99B0 -479px -48px no-repeat;}
+#x a:hover		{background: transparent  #2E99B0 -637px -48px no-repeat;}
+#ws a:hover	{background: transparent  #2E99B0 -738px -48px no-repeat;}
+#w a:hover	{background: transparent  #2E99B0 -923px -48px no-repeat;}

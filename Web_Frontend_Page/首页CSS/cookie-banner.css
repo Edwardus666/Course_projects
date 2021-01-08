@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cookie-law-info-bar {
+    border: 0;
+    font-size: 10pt;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: rgba(0,0,0,.5) 0px 5px 50px;
+    display: none;
+}
+#cookie-law-info-bar {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 1rem !important;
+    font-weight: bold;
+}
+#cookie-law-info-bar span {
+    vertical-align: middle;
+}
+a#a2 {
+    outline: none;
+    color: #647993;
+    text-decoration: none;
+    font-weight: inherit;
+}
+.small.cli-plugin-button, .small.cli-plugin-button:visited {
+    font-size: 11px;
+}
+.cli-plugin-button, .cli-plugin-button:visited, .medium.cli-plugin-button, .medium.cli-plugin-button:visited {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+}
+.cli-plugin-button, .cli-plugin-button:visited {
+    display: inline-block;
+    padding: 8px 16px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.cli-plugin-button {
+    margin-top: 5px;
+}

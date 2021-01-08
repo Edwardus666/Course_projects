@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+*, *:before, *:after {
+   box-sizing: border-box;
+}
+h3.comment-reply-title {
+    margin-bottom:50px;
+	color:#CCCCCC;
+	border:#FF9900;
+	font-family: "Rokkitt","Helvetica Neue",sans-serif!important;
+}
+small {
+    font-size: 80%;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.comment_textarea {
+	margin-bottom:50px;
+	color:#CCCCCC;
+	border:#FF9900;
+    margin-top: 10px;
+	 width: 90%;
+    position: relative;
+    left: 5%;
+}
+@media (min-width: 90%)
+.col-md-12 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+@media (min-width: 90%)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float:left;
+}
+@media screen and (min-width: 90%)
+.container {
+    width: 90%;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top:20px;
+}
+form p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #575757;
+}
+input{
+	outline: 0px !important;
+    box-shadow:#999999;
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;}
+	input[type="submit"] {
+    height: 38px;
+    padding: 0 22px;
+	padding-top:10px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 30px;
+
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: inherit;
+
+    transition: all 0.15s ease-in;
+	position:relative;
+	left:45%;
+	margin-top: 1%;
+}
+input[type="submit"] {
+    background: none;
+    border: none;
+    background-color: #F0F0F0;
+    border-radius: 30px;
+    padding: 2px 19px;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+
+    cursor: pointer;
+}
+textarea {
+    width: 50%;
+    height: 200px;
+    line-height: 21px;
+}
+.site_content {
+    padding-top: 38px;
+    padding-bottom: 80px;
+}
