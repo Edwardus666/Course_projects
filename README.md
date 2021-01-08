@@ -7,7 +7,6 @@ All the projects were saved in local environment, which then uploaded as a whole
 ### Projects listed :dart:
 :white_check_mark: [Advanced Database(2020)](https://github.com/Edwardus666/Course_projects/tree/main/Advanced_Database(2020))  
 :white_check_mark: [Big Data Analytics(2020)](https://github.com/Edwardus666/Course_projects/tree/main/Big_Data_Analytics_with_R)  
-![Alt Text](https://github.com/Edwardus666/Course_projects/tree/main/Web_Frontend_Page/Main Page.gif =250x250)
 ### To be contiuned...
 
 
